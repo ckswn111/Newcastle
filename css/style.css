@@ -1772,7 +1772,7 @@ text-align: center}
 
 .contact_info .info_item {
   position: relative;
-  padding-left: 35%; }
+  padding-left: 30px; }
   .contact_info .info_item i {
     position: relative;
     left: 0px;
@@ -3638,42 +3638,49 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
+.side_menu .menu_right {
+    margin-top: 120px;
+    max-height: 420px; }
+    @media (max-width: 1440px) {
+      .side_menu .menu_right {
+        margin-top: 20px; } }
 
 .cjslideimg{
-  width: 80%;
-  margin: 10 0 0;
-  height: 30%;
- 
+  }
+  @media (max-width: 1440px) {
+    }
+
+
+.cjcj {
+  position: relative;
+  right: 0px;
+  top: 0px;
+  height: 800px;
+  width: 800px;
+  max-width: 300px;
+  text-align: center;
+  padding-left: 20px;
+  z-index: 20;
+  padding-right: 20px; 
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
-
-
-.text {
-  position: absolute;
-  width: 450px;
-  left: 50%;
-  margin-left: -225px;
-  height: 40px;
-  top: 50%;
-  margin-top: -20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-
-}
-
-p {
+.text p {
   display: inline-block;
   vertical-align: top;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
 }
 
 .word {
   position: absolute;
   width: 220px;
   opacity: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
 }
 
 .letter {
@@ -3718,4 +3725,8 @@ p {
   color: #2c3e50;
 }
 
+
+.cjcenter{
+  position: center;
+}
 
